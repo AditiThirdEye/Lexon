@@ -1,0 +1,24 @@
+# Nested build directory
+/build*
+
+# vscode configurations
+/.vscode
+
+# IDEA configurations
+/.idea
+
+# ONNX models
+*.onnx
+
+# Clangd cache
+.cache
+
+# Clangd configurations
+.clangd
+.claude
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

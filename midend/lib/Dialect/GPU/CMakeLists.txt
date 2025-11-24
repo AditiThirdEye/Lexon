@@ -1,0 +1,42 @@
+add_mlir_library(LexonGPUTransformOPs
+  TransformOps.cpp
+
+  DEPENDS
+  TransformOpsIncGen
+
+  LINK_LIBS PUBLIC
+  LLVMSupport
+  LexonGPUUtils
+  MLIRAffineDialect
+  MLIRArithDialect
+  MLIRBufferizationDialect
+  MLIRBufferizationTransforms
+  MLIRBytecodeWriter
+  MLIRFuncDialect
+  MLIRFunctionInterfaces
+  MLIRGPUDialect
+  MLIRGPUTransformOps
+  MLIRNVGPUDialect
+  MLIRIndexDialect
+  MLIRIR
+  MLIRLinalgDialect
+  MLIRLinalgTransforms
+  MLIRLinalgUtils
+  MLIRMemRefDialect
+  MLIRNVGPUDialect
+  MLIRNVGPUTransforms
+  MLIRParser
+  MLIRPDLDialect
+  MLIRPass
+  MLIRSCFDialect
+  MLIRSideEffectInterfaces
+  MLIRTensorTransformOps
+  MLIRTransformDialect
+  MLIRTransformDialectUtils
+  MLIRTransforms
+  MLIRVectorDialect
+  MLIRVectorToGPU
+  MLIRVectorTransforms
+  MLIRViewLikeInterface
+  MLIRGPUPasses
+  )
