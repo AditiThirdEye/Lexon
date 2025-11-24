@@ -1,7 +1,5 @@
 # LEXON MLIR
 
-An MLIR-based compiler framework designed for a co-design ecosystem from DSL (domain-specific languages) to DSA (domain-specific architectures). ([Project page](https://lexon-compiler.github.io/))
-
 ## Getting Started
 
 ### LLVM/MLIR Dependencies
@@ -80,21 +78,6 @@ If you want to test your model end-to-end conversion and inference, you can add 
 $ cmake -G Ninja .. -DLEXON_ENABLE_E2E_TESTS=ON
 $ ninja check-e2e
 ```
-
-## Examples
-
-We provide examples to demonstrate how to use the passes and interfaces in `lexon-mlir`, including IR-level transformations, domain-specific applications, and testing demonstrations.
-
-For more details, please see the [examples documentation](./examples/README.md).
-
-## Contributions
-
-We welcome contributions to our open-source project!
-
-Before contributing, please read the [Contributor Guide](https://lexoncompiler.com/Pages/ContributorGuide.html) and [Code Style](https://lexoncompiler.com/Pages/Documentation/CodeStyle.html).
-
-To maintain code quality, this project provides pre-commit checks:
-
 ```
 $ pre-commit install
 ```
